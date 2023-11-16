@@ -6,16 +6,21 @@
     <title>STK</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
-
 <body>
-    <div class="box">
-        <input type="text" placeholder="Search...">
-        <a href="#">
-            <ion-icon name="search-outline"></ion-icon>
-        </a>
-    </div>
+  
     <section>
-    <div class="login-box">
+    <div class="container">
+        <div class="box">
+            <input type="text" id="inmatning" placeholder="Search...">
+            <a href="#">
+                <ion-icon name="search-outline"></ion-icon>
+            </a>
+        </div>
+    <div class="info-box">
+        <div class="search-results">
+        </div>
+    </div>
+    <div class="info-box">
         <form action="">
             <h2>STK</h2>
             <div class="input-box">
@@ -25,7 +30,7 @@
             </div>
             <div class="input-box">
                 <span class="icon"><ion-icon name="person-add"></ion-icon></span>
-                <input type="text" required label="Åldersrekommendation">
+                <input type="number" required label="Åldersrekommendation">
                 <label>Åldersrekommendation</label>
             </div>
             <div class="input-box">
@@ -33,18 +38,14 @@
                 <input type="text" required label="Beskrivning" >
                 <label>Beskrivning</label>
             </div>
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label>
-            </div>
             <button type="submit">Skicka data</button>
         </form>
     </div>
+</div>
 </section>
-
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <script src="scripts/localStorage.js"></script>
-
+    <script src="scripts/searchBar.js"></script>
 </body>
-
 </html>

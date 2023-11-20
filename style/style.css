@@ -82,7 +82,6 @@ button {
   color: black;
   font-weight: 500;
 }
-<<<<<<< HEAD
 .container {
   display: flex;
   justify-content: center;
@@ -106,23 +105,6 @@ button {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-=======
-.box {
-  height: 30px;
-  display: flex;
-  cursor: pointer;
-  padding: 20px;
-  background: whitesmoke;
-  border-radius: 30px;
-  align-items: center;
-  box-shadow: 0 10px 25px rgb(0, 0, 0.3);
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
->>>>>>> eb4211720e06d0266048ac573b1316a275cb4397
 
 .box ion-icon {
   font-size: 23px;
@@ -208,8 +190,4 @@ button {
   .input-box {
     width: 290px;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> eb4211720e06d0266048ac573b1316a275cb4397
